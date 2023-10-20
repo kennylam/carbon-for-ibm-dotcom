@@ -58,5 +58,4 @@ class C4DCardGroupItem extends C4DCard {
   static styles = styles;
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DCardGroupItem;

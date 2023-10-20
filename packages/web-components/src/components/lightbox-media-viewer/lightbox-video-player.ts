@@ -107,5 +107,4 @@ class C4DLightboxVideoPlayer extends C4DLightboxMediaViewerBody {
   name = '';
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DLightboxVideoPlayer;

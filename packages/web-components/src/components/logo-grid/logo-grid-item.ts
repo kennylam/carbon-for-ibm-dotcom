@@ -38,5 +38,4 @@ console.warn(
     'See content-section/block and image-group documentation for more information.'
 );
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DLogoGridItem;

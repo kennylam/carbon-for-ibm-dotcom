@@ -44,5 +44,4 @@ class C4DLeadspaceWithSearchCopy extends StableSelectorMixin(
   }
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DLeadspaceWithSearchCopy;

@@ -108,5 +108,4 @@ class C4DDotcomShellContainer extends ConnectMixin<
   mapDispatchToProps
 )(C4DDotcomShellComposite) {}
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DDotcomShellContainer;

@@ -411,5 +411,4 @@ class C4DCard extends CTAMixin(StableSelectorMixin(CDSLink)) {
   static styles = styles;
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DCard;

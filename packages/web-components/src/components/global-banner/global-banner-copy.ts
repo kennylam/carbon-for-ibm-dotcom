@@ -42,5 +42,4 @@ class C4DGlobalBannerCopy extends StableSelectorMixin(C4DMarkdown) {
   static styles = styles;
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DGlobalBannerCopy;

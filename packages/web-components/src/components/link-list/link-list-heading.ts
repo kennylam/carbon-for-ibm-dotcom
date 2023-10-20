@@ -50,5 +50,4 @@ class C4DLinkListHeading extends StableSelectorMixin(LitElement) {
   static styles = styles;
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DLinkListHeading;

@@ -45,5 +45,4 @@ class C4DLeavingIbmContainer extends ConnectMixin<
   mapDispatchToProps
 )(C4DLeavingIbmComposite) {}
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DLeavingIbmContainer;

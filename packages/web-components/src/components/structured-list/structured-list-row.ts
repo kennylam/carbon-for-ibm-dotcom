@@ -38,5 +38,4 @@ class C4DStructuredListRow extends CDSStructuredListRow {
   static styles = styles;
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DStructuredListRow;

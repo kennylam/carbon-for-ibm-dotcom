@@ -33,5 +33,4 @@ class C4DQuoteLinkWithIcon extends C4DLinkWithIcon {
   }
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DQuoteLinkWithIcon;

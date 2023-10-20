@@ -43,5 +43,4 @@ class C4DInPageBanner extends StableSelectorMixin(C4DContentGroup) {
   }
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DInPageBanner;

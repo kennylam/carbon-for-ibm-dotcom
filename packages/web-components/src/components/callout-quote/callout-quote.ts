@@ -71,5 +71,4 @@ class C4DCalloutQuote extends C4DCalloutMixin(C4DQuote) {
   static styles = styles;
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DCalloutQuote;

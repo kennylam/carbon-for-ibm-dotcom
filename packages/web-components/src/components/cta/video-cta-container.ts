@@ -69,5 +69,4 @@ class C4DVideoCTAContainer extends ConnectMixin<
   mapDispatchToProps
 )(C4DVideoPlayerContainerMixin(C4DVideoCTAComposite)) {}
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DVideoCTAContainer;

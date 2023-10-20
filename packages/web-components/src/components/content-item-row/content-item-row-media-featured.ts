@@ -47,5 +47,4 @@ class C4DContentItemRowMediaFeatured extends C4DContentItem {
   static styles = styles;
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DContentItemRowMediaFeatured;

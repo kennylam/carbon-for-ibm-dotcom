@@ -64,5 +64,4 @@ class C4DLeadSpaceBlockContent extends C4DContentBlock {
   }
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DLeadSpaceBlockContent;

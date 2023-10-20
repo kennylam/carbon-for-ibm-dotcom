@@ -74,5 +74,4 @@ class C4DLightboxImageViewer extends C4DLightboxMediaViewerBody {
   title = '';
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DLightboxImageViewer;

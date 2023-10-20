@@ -30,5 +30,4 @@ class C4DCardCTAImage extends C4DImage {
   }
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DCardCTAImage;

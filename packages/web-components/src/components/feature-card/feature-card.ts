@@ -53,5 +53,4 @@ class C4DFeatureCard extends StableSelectorMixin(C4DCard) {
   static styles = styles;
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DFeatureCard;

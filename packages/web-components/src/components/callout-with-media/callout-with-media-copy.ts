@@ -41,5 +41,4 @@ class C4DCalloutWithMediaCopy extends DDSContentBlockCopy {
   }
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DCalloutWithMediaCopy;

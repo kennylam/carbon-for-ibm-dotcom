@@ -52,5 +52,4 @@ console.warn(
     'See card documentation for more information.'
 );
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DCardLink;

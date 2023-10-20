@@ -146,5 +146,4 @@ class C4DFooterContainer extends ConnectMixin<
   mapDispatchToProps
 )(C4DFooterComposite) {}
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DFooterContainer;

@@ -36,5 +36,4 @@ class C4DQuoteSourceCopy extends LitElement {
   static styles = styles;
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DQuoteSourceCopy;

@@ -117,5 +117,4 @@ class C4DLocaleModalContainer extends ConnectMixin<
   mapDispatchToProps
 )(C4DLocaleModalComposite) {}
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DLocaleModalContainer;

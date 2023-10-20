@@ -29,5 +29,4 @@ class C4DStructuredListBody extends CDSStructuredListBody {
   static styles = styles;
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DStructuredListBody;

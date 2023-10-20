@@ -206,5 +206,4 @@ console.warn(
   the base c4d-feature-card component. See migration guide for more information.`
 );
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DFeatureCTA;

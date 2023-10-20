@@ -26,5 +26,4 @@ class C4DBreadcrumb extends StableSelectorMixin(CDSBreadcrumb) {
   static styles = styles;
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DBreadcrumb;

@@ -329,5 +329,4 @@ class C4DVideoPlayerComposite extends HybridRenderMixin(
   }
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DVideoPlayerComposite;

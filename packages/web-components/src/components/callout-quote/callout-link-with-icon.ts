@@ -42,5 +42,4 @@ class C4DCalloutLinkWithIcon extends C4DLinkWithIcon {
   }
 }
 
-/* @__GENERATE_REACT_CUSTOM_ELEMENT_TYPE__ */
 export default C4DCalloutLinkWithIcon;
