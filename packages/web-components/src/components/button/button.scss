@@ -6,7 +6,7 @@
 //
 
 @import '@carbon/ibmdotcom-styles/scss/globals/vars';
-@import '@carbon/web-components/scss/components/button/button';
+@import '@carbon/web-components/scss/components/button/button.scss';
 @import '../../globals/scss/box-sizing';
 
 :host(#{$dds-prefix}-button-expressive) {
