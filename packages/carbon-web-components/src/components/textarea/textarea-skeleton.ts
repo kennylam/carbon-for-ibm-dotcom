@@ -9,7 +9,7 @@
 
 import { LitElement, html } from 'lit';
 import { prefix } from '../../globals/settings';
-import styles from './textarea.scss';
+import styles from './textarea.scss?inline';
 import { carbonElement as customElement } from '../../globals/decorators/carbon-element';
 
 /**

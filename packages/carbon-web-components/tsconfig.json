@@ -1,19 +1,23 @@
 {
   "compilerOptions": {
+    "target": "es2020",
     "module": "esnext",
-    "moduleResolution": "node",
     "lib": ["es2017", "dom", "dom.iterable"],
-    "typeRoots": [
-      "src/typings",
-      "tests/typings",
-      "node_modules/@types",
-      "../../node_modules/@types"
-    ],
-    "declaration": true,
-    "rootDir": ".",
-    "skipLibCheck": true,
+    "typeRoots": ["src/typings", "node_modules/@types"],
+
+    /* Bundler mode */
     "stripInternal": true,
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmitOnError": true,
+    "rootDir": "src",
     "sourceMap": true,
+    "declaration": true,
+    "outDir": "es",
+
+    "skipLibCheck": true,
+
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
@@ -22,8 +26,7 @@
     "strict": true,
     "noImplicitAny": false,
     "jsx": "react",
-    "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true
+    "allowSyntheticDefaultImports": true
   },
   "include": [
     "src/**/*.ts",

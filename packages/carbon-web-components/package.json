@@ -32,16 +32,12 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "prebuild": "node tools/fix-carbon-sass-imports.js",
     "build": "vite build",
-    "build:dist": "gulp build:dist",
-    "build:dist:dev": "gulp build:dist:dev",
-    "build-storybook": "cross-env NODE_OPTIONS=--openssl-legacy-provider BABEL_ENV=es build-storybook",
+    "build-storybook": "storybook build",
     "ci-check": "yarn wca && yarn typecheck && yarn build && yarn test:unit",
     "clean": "gulp clean",
     "reset": "yarn cache clean && yarn clean && rimraf node_modules && yarn install && yarn build",
     "start": "yarn storybook",
-    "storybook": "cross-env NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 9000",
     "test": "gulp test && yarn test:integration",
     "test:integration": "yarn test:integration:build && yarn test:integration:ui",
     "test:integration:build": "jest -c tests/integration/build/jest.config.js --runInBand",
@@ -50,7 +46,8 @@
     "test:unit:updateSnapshot": "NODE_OPTIONS=--openssl-legacy-provider gulp test:unit --update-snapshot",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "visual-snapshot": "yarn build-storybook && percy storybook ./storybook-static",
-    "wca": "web-component-analyzer analyze src --outFile custom-elements.json"
+    "wca": "web-component-analyzer analyze src --outFile custom-elements.json",
+    "storybook": "storybook dev -p 6006"
   },
   "files": [
     "custom-elements.json",
@@ -73,17 +70,29 @@
     "@babel/runtime": "^7.16.3",
     "@carbon/styles": "^1.39.0",
     "flatpickr": "4.6.1",
-    "lit": "^2.7.6",
+    "lit": "^3.0.0",
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@carbon/icons": "^11.29.2",
+    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/addon-knobs": "^7.0.2",
+    "@storybook/addon-links": "^7.5.3",
+    "@storybook/addon-styling": "^1.3.7",
+    "@storybook/blocks": "^7.5.3",
+    "@storybook/builder-vite": "^7.5.3",
+    "@storybook/web-components": "^7.5.3",
+    "@storybook/web-components-vite": "^7.5.3",
     "@types/bluebird": "^3.5.41",
     "@types/node": "^20.8.10",
+    "eslint-plugin-storybook": "^0.6.15",
     "fast-glob": "^3.3.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-postcss-lit": "^2.1.0",
     "sass": "^1.32.12",
-    "typescript": "^4.6.4",
+    "storybook": "^7.5.3",
+    "typescript": "^5.2.2",
     "vite": "^4.5.0"
   },
   "typings": "es/index.d.ts"

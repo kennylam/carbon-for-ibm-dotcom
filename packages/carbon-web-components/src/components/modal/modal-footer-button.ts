@@ -9,8 +9,8 @@
 
 import { prefix } from '../../globals/settings';
 import CDSButton from '../button/button';
-import buttonStyles from '../button/button.scss';
-import styles from './modal.scss';
+import buttonStyles from '../button/button.scss?inline';
+import styles from './modal.scss?inline';
 import { carbonElement as customElement } from '../../globals/decorators/carbon-element';
 
 /**

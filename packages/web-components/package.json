@@ -150,15 +150,6 @@
     "@rollup/plugin-replace": "^4.0.0",
     "@rollup/plugin-terser": "^0.4.3",
     "@rollup/pluginutils": "^4.2.0",
-    "@storybook/addon-actions": "^6.5.15",
-    "@storybook/addon-docs": "^6.5.15",
-    "@storybook/addon-essentials": "^6.5.15",
-    "@storybook/addon-knobs": "^6.4.0",
-    "@storybook/addon-links": "^6.5.15",
-    "@storybook/addon-storysource": "^6.5.15",
-    "@storybook/react": "^6.5.15",
-    "@storybook/source-loader": "^6.5.15",
-    "@storybook/web-components": "^6.5.15",
     "@types/jasmine": "^3.10.2",
     "@types/lodash-es": "^4.17.5",
     "@types/prop-types": "^15.7.0",
@@ -235,10 +226,7 @@
     "temp": "^0.9.0",
     "terser-webpack-plugin": "^4.2.3",
     "through2": "^3.0.0",
-    "typescript": "~4.8.0",
-    "url-loader": "^4.1.1",
-    "web-component-analyzer": "1.2.0-next.0",
-    "webpack": "^4.46.0"
+    "typescript": "~4.8.0"
   },
   "peerDependencies": {
     "typescript": "~4.8.0"

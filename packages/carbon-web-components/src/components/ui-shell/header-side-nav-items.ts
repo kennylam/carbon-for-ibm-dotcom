@@ -10,7 +10,7 @@
 import { LitElement, html } from 'lit';
 import { property, customElement } from 'lit/decorators.js';
 import { prefix } from '../../globals/settings';
-import styles from './side-nav.scss';
+import styles from './side-nav.scss?inline';
 
 /**
  * Header Side Nav Items section

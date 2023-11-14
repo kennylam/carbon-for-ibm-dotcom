@@ -20,7 +20,7 @@ import {
   BUTTON_TOOLTIP_ALIGNMENT,
   BUTTON_TOOLTIP_POSITION,
 } from './defs';
-import styles from './button.scss';
+import styles from './button.scss?inline';
 import HostListener from '../../globals/decorators/host-listener';
 import HostListenerMixin from '../../globals/mixins/host-listener';
 import { carbonElement as customElement } from '../../globals/decorators/carbon-element';

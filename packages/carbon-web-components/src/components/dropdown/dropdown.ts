@@ -33,7 +33,7 @@ import {
   NAVIGATION_DIRECTION,
 } from './defs';
 import CDSDropdownItem from './dropdown-item';
-import styles from './dropdown.scss';
+import styles from './dropdown.scss?inline';
 import { carbonElement as customElement } from '../../globals/decorators/carbon-element';
 
 export {

@@ -15,14 +15,14 @@ import Fade16 from '@carbon/web-components/es/icons/fade/16';
 import Search20 from '@carbon/web-components/es/icons/search/20';
 import Notification20 from '@carbon/web-components/es/icons/notification/20';
 import SwitcherIcon20 from '@carbon/web-components/es/icons/switcher/20';
-import contentStyles from '@carbon/styles/scss/components/ui-shell/content/_content.scss';
+import contentStyles from '@carbon/styles/scss/components/ui-shell/content/_content.scss?inline';
 import { SIDE_NAV_COLLAPSE_MODE, SIDE_NAV_USAGE_MODE } from './side-nav';
 import { classMap } from 'lit/directives/class-map.js';
 import './index';
 import '../skip-to-content';
 import '../modal/modal';
 import '../button/button';
-import styles from './ui-shell-story.scss';
+import styles from './ui-shell-story.scss?inline';
 import storyDocs from './ui-shell-story.mdx';
 import { prefix } from '../../globals/settings';
 

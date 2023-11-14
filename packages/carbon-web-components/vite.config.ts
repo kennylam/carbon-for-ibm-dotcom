@@ -8,6 +8,10 @@
 import fg from 'fast-glob';
 import fs from 'fs';
 import path from 'path';
+import resolve from '@rollup/plugin-node-resolve';
+import postcss from 'rollup-plugin-postcss';
+import postcssLit from 'rollup-plugin-postcss-lit';
+import terser from '@rollup/plugin-terser';
 import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
@@ -84,6 +88,7 @@ export default defineConfig(({ mode }) => {
   }
   return {
     build: {
+      outDir: 'dist',
       lib: {
         entry: inputs,
         /**
@@ -102,6 +107,23 @@ export default defineConfig(({ mode }) => {
       rollupOptions: {
         external: [/^lit/, /^bluebird/],
       },
+    },
+    rollupOptions: {
+      external: [/^lit/, /^bluebird/],
+      plugins: [
+        resolve({
+          browser: true,
+        }),
+        postcss({
+          extensions: ['.scss'],
+          minimize: true,
+          use: [['sass']],
+        }),
+        postcssLit({
+          include: ['./node_modules', 'src/**/*.scss', 'src/**/*.scss?*'],
+        }),
+        ...(mode === 'production' ? [terser()] : []),
+      ],
     },
   };
 });

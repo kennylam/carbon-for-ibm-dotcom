@@ -14,7 +14,7 @@ import Information16 from '@carbon/icons/lib/information/16';
 import { prefix } from '../../globals/settings';
 import FocusMixin from '../../globals/mixins/focus';
 import { POPOVER_ALIGNMENT } from '../popover/defs';
-import styles from './toggletip.scss';
+import styles from './toggletip.scss?inline';
 
 /**
  * Definition tooltip.
