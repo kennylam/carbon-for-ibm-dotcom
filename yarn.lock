@@ -3655,13 +3655,10 @@ __metadata:
     "@babel/plugin-transform-object-rest-spread": "npm:~7.22.15"
     "@babel/plugin-transform-optional-chaining": "npm:~7.23.0"
     "@babel/plugin-transform-runtime": "npm:7.18.5"
-    "@babel/plugin-transform-template-literals": "npm:~7.12.0"
     "@babel/plugin-transform-typescript": "npm:~7.12.0"
     "@babel/preset-env": "npm:~7.23.2"
     "@babel/preset-modules": "npm:^0.1.5"
     "@babel/runtime": "npm:^7.16.3"
-    "@babel/template": "npm:~7.12.0"
-    "@babel/traverse": "npm:~7.23.7"
     "@carbon/ibm-products-styles": "npm:2.20.1"
     "@carbon/icon-helpers": "npm:10.46.0"
     "@carbon/icons": "npm:11.34.1"
@@ -3760,9 +3757,6 @@ __metadata:
     postcss-selector-parser: "npm:^6.0.0"
     prop-types: "npm:^15.7.2"
     puppeteer: "npm:^13.0.0"
-    react: "npm:16.14.0"
-    react-dom: "npm:16.14.0"
-    react-is: "npm:16.13.1"
     read-package-up: "npm:^11.0.0"
     replace-ext: "npm:^2.0.0"
     resize-observer-polyfill: "npm:^1.5.0"
@@ -29195,17 +29189,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:16.13.1, react-is@npm:^16.12.0, react-is@npm:^16.13.1, react-is@npm:^16.7.0, react-is@npm:^16.8.4":
-  version: 16.13.1
-  resolution: "react-is@npm:16.13.1"
-  checksum: 10/5aa564a1cde7d391ac980bedee21202fc90bdea3b399952117f54fb71a932af1e5902020144fb354b4690b2414a0c7aafe798eb617b76a3d441d956db7726fdf
-  languageName: node
-  linkType: hard
-
 "react-is@npm:17.0.2, react-is@npm:^17.0.1, react-is@npm:^17.0.2":
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 10/73b36281e58eeb27c9cc6031301b6ae19ecdc9f18ae2d518bdb39b0ac564e65c5779405d623f1df9abf378a13858b79442480244bd579968afc1faf9a2ce5e05
+  languageName: node
+  linkType: hard
+
+"react-is@npm:^16.12.0, react-is@npm:^16.13.1, react-is@npm:^16.7.0, react-is@npm:^16.8.4":
+  version: 16.13.1
+  resolution: "react-is@npm:16.13.1"
+  checksum: 10/5aa564a1cde7d391ac980bedee21202fc90bdea3b399952117f54fb71a932af1e5902020144fb354b4690b2414a0c7aafe798eb617b76a3d441d956db7726fdf
   languageName: node
   linkType: hard
 
