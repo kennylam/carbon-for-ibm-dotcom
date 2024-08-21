@@ -77,8 +77,6 @@
     "chalk": "^4.1.1",
     "cli-table": "^0.3.0",
     "gzip-size": "^5.0.0",
-    "jest": "25.5.4",
-    "jest-circus": "25.5.4",
     "jsdoc": "^3.6.10",
     "object-assign": "^4.1.1",
     "promise": "^8.0.1",
