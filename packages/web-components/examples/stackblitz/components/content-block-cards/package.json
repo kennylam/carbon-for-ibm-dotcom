@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
-    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/plugin-transform-runtime": "7.25.9",
     "carbon-components": "^10.36.0",
     "parcel": "2.0.0-beta.2",
     "rimraf": "^3.0.2",
